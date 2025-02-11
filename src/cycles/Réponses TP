@@ -1,0 +1,21 @@
+Ex. 5)
+Redéfinir une méthode entend qu'une classe fille change la fonctionnalité d'une méthode qu'elle hérite de sa classe mère.
+Par exemple, toute classe hérite par défaut la méthode toString, qui est redéfinie avec cette nouvelle classe.
+
+Ex. 6)
+Pour Velo:
+- toString
+
+Pour VeloElec:
+- toString
+- getPuissance
+
+Ex. 7)
+@Override spécifie que la méthode qui suit est une redéfinition d'une méthode héritée.
+
+Ex. 8)
+Sa présence apporte de la visibilité et rend le code plus robuste.
+On peut toujours s'en dispenser d'@Override, mais faire ceci n'est pas une bonne pratique.
+
+Ex. 10)
+Cet appel signifie qu'on appelle la méthode définie dans la classe mère pour obtenir son résultat, qu'on utilisera dans la méthode redéfinie ici dans la classe fille.
