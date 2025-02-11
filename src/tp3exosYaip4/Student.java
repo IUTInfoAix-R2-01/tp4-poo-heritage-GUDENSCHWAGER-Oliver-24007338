@@ -40,4 +40,15 @@ public class Student extends Person {
 	public String toString() {
 		return "Student[" + super.toString() + ",program=" + program + ",year=" + year + ",fee=" + fee + "]";
 	}
+	
+	public static void main(String[] args) {
+		Student e1 = new Student("Enzo", "Rognac", "IUT", 0, 999999.99);
+		System.out.println(e1.getProgram());
+		e1.setProgram("BUT Info");
+		System.out.println(e1.getYear());
+		e1.setYear(1);
+		System.out.println(e1.getFee());
+		e1.setFee(999998.99);
+		System.out.println(e1);
+	}
 }

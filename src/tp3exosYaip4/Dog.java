@@ -17,4 +17,12 @@ public class Dog extends Mammal{
 	public String toString() {
 		return "Dog[" + super.toString() + "]";
 	}
+	
+	public static void main(String[] args) {
+		Dog Johnny = new Dog("Johnny");
+		Dog Padzo = new Dog("Padzo");
+		Johnny.greets();
+		Johnny.greets(Padzo);
+		System.out.println(Johnny);
+	}
 }
